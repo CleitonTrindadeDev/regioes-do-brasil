@@ -5,8 +5,8 @@
     padding: 0%;  
 }
 
-@import url ('https://fonts.googleapis.com/css2? family = Passion + One & display = swap');
-@import url ('https://fonts.googleapis.com/css2? family = Compartilhar + Tecnologia + Mono & display = trocar');
+@import url('https://fonts.googleapis.com/css2? family = Passion + One & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Compartilhar + Tecnologia + Mono & display = trocar');
 
 :root{
     --cor0:#828CB7;
@@ -66,7 +66,7 @@ div {
     
 }
 div::before{
-    content: "Algumas funcionalidades usando PHP";
+    content: "Selecione o estado e veja sua região";
     text-align: center;
     font:10pt Arial;
     font-family: var(--fonte2);
@@ -97,4 +97,11 @@ footer ,p ,a{
 
 a:hover{
     text-decoration: underline;
+}
+fieldset{
+   border-radius: 5px;
+}
+
+.botao {
+    background-color: var(--cor3);
 }

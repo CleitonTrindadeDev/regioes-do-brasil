@@ -16,8 +16,51 @@
     </header>
   <div>
       <?php
+      $r = isset ($_GET["eb"]) ? $_GET["eb"] : "estado invalido";
+       switch ($r){
+        case "AC":
+         case "RO": 
+          case "AM":
+           case "PA": 
+            case "TO":
+             case "AP": 
+              case "RR":   
+          echo "Região norte ";
+          break;
+        case "MT":
+         case "GO":
+          case "MS": 
+           case "DF": 
+          echo "Região Centro-Oeste";
+          Break;
+        case "BA":
+          case "MA":
+            case "PI":
+              case "CE":
+                case "AL":
+                  case "CE":
+                    case "MA":
+                      case "PB":
+                        case "PE":
+                          case "PI":
+                            case "SE":
+                              case "RN":
+          echo "Região Nordeste";
+          break;
+          case "MG":
+            case "ES":
+              case "RJ";
+               case "SP":
+          echo "Região Sudeste ";
+          break;
+          case "PR":
+            case "SC":
+              case "RS":
+          echo "Região Sul ";
+         }
+         ?>
+      <br/><br/><a href="javascript:history.go(-1)" class="botao"> Voltar</a>
       
-      ?>
   </div>
 </section>
 </body>

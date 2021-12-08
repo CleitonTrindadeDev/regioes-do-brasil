@@ -15,6 +15,7 @@
         <p>Hypertext Preprocessor</p>
     </header>
   <div>
+  <fieldset>
       <?php
       $r = isset ($_GET["eb"]) ? $_GET["eb"] : "estado invalido";
        switch ($r){
@@ -59,8 +60,8 @@
           echo "Região Sul ";
          }
          ?>
-      <br/><br/><a href="javascript:history.go(-1)" class="botao"> Voltar</a>
-      
+      <a href="javascript:history.go(-1)" class="botao"> Voltar</a>
+      </fieldset>
   </div>
 </section>
 </body>
